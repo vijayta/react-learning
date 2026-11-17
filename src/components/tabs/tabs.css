@@ -1,0 +1,43 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #000;
+      background-color: #f0f0f0;
+    }
+  }
+
+  li.active {
+    background-color: #ccc;
+    color: #000;
+  }
+}
+
+.active {
+  .subList {
+    display: flex;
+  }
+}
+
+.subList {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+
+  &.active {
+    display: flex;
+  }
+}
