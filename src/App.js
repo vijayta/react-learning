@@ -1,5 +1,5 @@
 import './App.css';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import Home from './components/home.jsx';
 import Basic from './components/basic.jsx';
 import Welcome from './components/welcome.jsx';
