@@ -49,7 +49,8 @@ ul {
 }
 
 
-button {
+.tab-item,
+.sub-tab {
   padding: 10px;
   width: 100%;
   border: 0;
@@ -58,4 +59,29 @@ button {
   text-align: left;
   border-bottom: 1px solid #ccc;
 
+}
+
+.one-tab {
+  background-color: #9596f4;
+}
+
+.two-tab {
+  background-color: #1ff0f0;
+}
+
+.three-tab {
+  background-color: #74f97b;
+}
+
+.four-tab {
+  background-color: #f97b7b;
+}
+
+.tab-content {
+  padding: 30px;
+  margin-top: 50px;
+
+  h2 {
+    margin-top: 0;
+  }
 }

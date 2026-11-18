@@ -3,3 +3,14 @@ body {
   background-color: #ffffff;
   color: #111111;
 }
+
+.page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 24px;
+}
+
+.page-nav a {
+  color: #1a56db;
+}
