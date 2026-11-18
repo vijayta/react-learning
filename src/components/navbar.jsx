@@ -7,10 +7,10 @@ const Navbar = () => {
 
       <div className="nav-buttons">
         <div className="left-buttons">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Balance</a>
+          <button type="button">Home</button>
+          <button type="button">About</button>
+          <button type="button">Contact</button>
+          <button type="button">Balance</button>
         </div>
 
         <div className="right-buttons">

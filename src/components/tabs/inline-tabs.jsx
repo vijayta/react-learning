@@ -107,9 +107,8 @@ const Tabs = () => {
           <li key={tabItem.id}>
             <button
               key={tabItem.id}
-              className={`tab ${activeTab === tabItem.id ? "active" : ""}`}
+              className={`tab tab-item ${activeTab === tabItem.id ? "active" : ""}`}
               onClick={() => handleTabClick(tabItem)}
-              className="tab-item"
             >
               {tabItem.title}
             </button>
